@@ -1,6 +1,6 @@
 import requests
 
-from config import (
+from src.config import (
     ZAPI_INSTANCE_ID,
     ZAPI_TOKEN,
     ZAPI_CLIENT_TOKEN

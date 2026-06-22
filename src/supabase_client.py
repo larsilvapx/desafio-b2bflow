@@ -1,6 +1,6 @@
 from supabase import create_client, Client
 
-from config import (
+from src.config import (
     SUPABASE_URL,
     SUPABASE_KEY
 )
