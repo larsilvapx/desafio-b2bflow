@@ -1,5 +1,9 @@
 import logging
 import sys
+import os  # importar o módulo 'os' para manipular os caminhos!
+
+# Adiciona a pasta raiz do projeto (uma pasta acima de /src) ao caminho de busca do Python
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
 from supabase_client import SupabaseClient
